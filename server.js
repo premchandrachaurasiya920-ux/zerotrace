@@ -11,7 +11,7 @@
 // 1. Core Environment Configuration
 // ==========================================
 // Configure the target Google Apps Script Web App URL here
-const APPS_SCRIPT_URL = process.env.APPS_SCRIPT_URL || "https://script.google.com/macros/s/AKfycbzXccIzU0D3Z-he9C6MHDPsqkPA_Hro22dIBosOQ6-n7ZG7WI8LqXogv0DFf4l5bL5rQw/exec";
+const APPS_SCRIPT_URL = process.env.APPS_SCRIPT_URL;
 const PORT = process.env.PORT || 3000;
 const FETCH_TIMEOUT_MS = parseInt(process.env.FETCH_TIMEOUT_MS, 10) || 15000; // 15s timeout default
 
